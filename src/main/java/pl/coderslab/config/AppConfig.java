@@ -57,7 +57,7 @@ public class AppConfig extends WebMvcConfigurerAdapter {
 	    return localeResolver; 
     }
 	
-	//
+
 	@Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         super.addResourceHandlers(registry);
@@ -73,5 +73,3 @@ public class AppConfig extends WebMvcConfigurerAdapter {
 	
 	
 	}
-	
-	
